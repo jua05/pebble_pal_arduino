@@ -12,7 +12,7 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); // 개수, 핀�
 #define TOUCH 20 // 터치 센서 감도
 int touch; // 터치 센서
 unsigned long previousMillis = 0; // 이전 시간 저장 변수
-const long interval = 500; // 터치 센서 체크 간격
+const long interval = 500; // 센서 체크 간격
 
 void setup() {
   mybt.begin("Pebble_pal"); // 블루투스 이름 설정
